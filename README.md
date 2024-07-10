@@ -34,4 +34,15 @@
     sdk: flutter
   provider: ^6.0.0  # Check for the latest version```
 
+<h1 align="center"> 1.4 Provider & Change Theme using Provider </h1>
+<div align="center">
+  <img src='https://github.com/Dipeshmaurya1/AdvFlutterCh1/assets/149373441/88b5d7cf-6cc7-4451-9182-984e24eb7c9b' height=35%, width=22%>
+  <img src='https://github.com/Dipeshmaurya1/AdvFlutterCh1/assets/149373441/d13f4776-83ef-4fad-bc46-4cb50f75cf93' height=35%, width=22%>
+</div>
+<div align="center">
+  <video src = 'https://github.com/Dipeshmaurya1/AdvFlutterCh1/assets/149373441/f107f0c9-5d6e-404a-81ea-6376530d93f4' height=35%, width=22%>
+</div
+
+
+
 
