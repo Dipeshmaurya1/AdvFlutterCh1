@@ -1,3 +1,5 @@
+<h1 align="center">  1.1 Switch Dark Theme to Light Theme </h1>
+
 - An example of changing themes of application into Light and Dark
 <img src='https://github.com/Dipeshmaurya1/advance_flutter_ch1/assets/149373441/bc5456aa-d143-4718-9348-2074549d4cc1' height=35%, width=22%>
 
@@ -6,7 +8,7 @@
   <a  href="https://github.com/Dipeshmaurya1/advance_flutter_ch1/tree/master/lib/Component/DailyTaskDay1">-> 📂 Go To Dart File 📂<-</a>
 </p>
 
-<h1 align="center">  Information of Provider With State Management </h1>
+<h1 align="center">  1.3 Provider Tree </h1>
 
 # State Management :
 
