@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'Screens/DailyTask/Task 1.1/View/switchDarkTheme_toLightTheme.dart';
+import 'Screens/DailyTask/Task 1.2/View/screen_1.dart';
 import 'Screens/DailyTask/Task 1.4/Provider/theme_change_provider.dart';
 import 'Screens/DailyTask/Task 1.4/View/HomePage.dart';
+import 'Screens/DailyTask/Task 1.5/View/QuoteScreen.dart';
 void main(){
   runApp(MyApp());
 }
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
             ? ThemeMode.dark
             : ThemeMode.light,
         debugShowCheckedModeBanner: false,
-        home: ChangeThemeScreen(),
+        home:QuoteScreen(),
       ),
     );
   }

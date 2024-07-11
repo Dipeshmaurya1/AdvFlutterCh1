@@ -75,13 +75,6 @@ class _StepperExampleState extends State<StepperExample> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            setState(() {
-              if (isGrid) {
-                isGrid = false;
-              } else {
-                isGrid = true;
-              }
-            });
           },
           child: (isGrid) ? const Icon(Icons.grid_4x4) : const Icon(Icons.list),
         ),

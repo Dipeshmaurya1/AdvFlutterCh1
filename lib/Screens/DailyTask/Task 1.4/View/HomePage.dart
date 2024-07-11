@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import '../../Task 1.1/View/switchDarkTheme_toLightTheme.dart';
 import '../Provider/theme_change_provider.dart';
 import 'Component/ListTile.dart';
 
@@ -41,7 +39,7 @@ class ChangeThemeScreen extends StatelessWidget {
               Text('Hasmukh Patel',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
               SizedBox(height: 15,),
               ListTiles(
-                name: Provider.of<ChangeThemeProvider>(context, listen: true).darkMode
+                name: Provider.of<ChangeThemeProvider>(context, listen: true).isDark
                     ? 'Dark Mode'
                     : 'Light Mode',
                 icon: Provider.of<ChangeThemeProvider>(context, listen: true).isDark
