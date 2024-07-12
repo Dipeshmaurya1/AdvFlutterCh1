@@ -47,5 +47,24 @@
 <a href="https://github.com/Dipeshmaurya1/AdvFlutterCh1/tree/master/lib/Screens/DailyTask/Task%201.4">-> 📂 Go To Dart File 📂 <-</a>
 </div>
 
+<h1 align="center"> 1.5 Quotes Data Solving with Provider </h1>
+<div align="center">
+  <img src='https://github.com/user-attachments/assets/22a5d632-6c4b-4cfe-8b45-49539e1ad795' height=35%, width=22%>
+  <img src='https://github.com/user-attachments/assets/71a35c3a-e114-4a99-871c-3e750de496a1' height=35%, width=22%>
+  <img src='https://github.com/user-attachments/assets/8c32787c-0c04-499c-9f32-951b86a9a24e' height=35%, width=22%>
+</div>
+<div align="center">
+  <video src = 'https://github.com/user-attachments/assets/8b9b8b90-852f-4586-a6c2-f53af4014ce2' height=35%, width=22%>
+  </div>
+    
+<div align="center">
+<a href="https://github.com/Dipeshmaurya1/AdvFlutterCh1/tree/master/lib/Screens/DailyTask/Task%201.5">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+
+
+
+
+
 
 
