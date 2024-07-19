@@ -12,6 +12,8 @@ import 'Screens/DailyTask/Task 1.5_2/View/homePage.dart';
 import 'Screens/DailyTask/Task 1.5_2/View/introPages1.dart';
 import 'Screens/DailyTask/Task 1.7/Provider/gallery_Providerl.dart';
 import 'Screens/DailyTask/Task 1.7/View/homeScreen.dart';
+import 'Screens/DailyTask/Task 8.1/Provider/photoProvider.dart';
+import 'Screens/DailyTask/Task 8.1/View/photoPage.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,15 +21,18 @@ Future<void> main() async {
   runApp(
     MultiProvider(
       providers: [
+        // ChangeNotifierProvider(
+        //   create: (context) => ChangeThemeProvider(),
+        // ),
+        // ChangeNotifierProvider(
+        //   create: (context) => QuoteDataProvider(),
+        // ),
+        // ChangeNotifierProvider(
+        //   create: (context) => GalleryProvider(),
+        // ),
         ChangeNotifierProvider(
-          create: (context) => ChangeThemeProvider(),
+          create: (context) => PhotoProvider(),
         ),
-        ChangeNotifierProvider(
-          create: (context) => QuoteDataProvider(),
-        ),
-        ChangeNotifierProvider(
-          create: (context) => GalleryProvider(),
-        )
       ],
       builder: (context, child) => MyApp(),
     ),
@@ -54,13 +59,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
-      themeMode: Provider.of<ChangeThemeProvider>(context).isDark
-          ? ThemeMode.dark
-          : ThemeMode.light,
       debugShowCheckedModeBanner: false,
-      home: Gallery1Screen(),
+      home: PhotoPage(),
     );
   }
 }

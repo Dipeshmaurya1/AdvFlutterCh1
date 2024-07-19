@@ -34,35 +34,13 @@ List galleryImgList = [
     'cat': 'Collage',
     'num': '015',
   },
-  {
-    'img': 'assets/galleryimg/8.jpeg',
-    'cat': 'Flower',
-    'num': '56',
-  },
-  {
-    'img': 'assets/galleryimg/9.jpeg',
-    'cat': 'Animals',
-    'num': '016',
-  },
-  {
-    'img': 'assets/galleryimg/10.jpeg',
-    'cat': 'Collage',
-    'num': '025',
-  },
-  {
-    'img': 'assets/galleryimg/11.jpeg',
-    'cat': 'Flower',
-    'num': '405',
-  },
-  {
-    'img': 'assets/galleryimg/12.jpeg',
-    'cat': 'Animals',
-    'num': '012',
-  },
 ];
 List lockData1 = [
-
-];
-List lockData2 = [
-
+  'assets/image/galleryImages/1.jpeg',
+  'assets/image/galleryImages/2.jpeg',
+  'assets/image/galleryImages/3.jpeg',
+  'assets/image/galleryImages/4.jpeg',
+  'assets/image/galleryImages/5.jpeg',
+  'assets/image/galleryImages/6.jpeg',
+  'assets/image/galleryImages/7.jpeg',
 ];

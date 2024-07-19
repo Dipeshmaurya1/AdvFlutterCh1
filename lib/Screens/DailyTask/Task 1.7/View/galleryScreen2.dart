@@ -69,7 +69,7 @@ class GalleryScreen2 extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: AssetImage(lockData2[index]),
+                              image: AssetImage('assets/image/galleryImages/2.jpeg'),
                             ),
                           ),
                         ),
@@ -112,7 +112,7 @@ class GalleryScreen2 extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: AssetImage(lockData2[index]),
+                              image: AssetImage('assets/image/galleryImages/3.jpeg'),
                             ),
                           ),
                         ),

@@ -109,11 +109,9 @@ class Gallery1Screen extends StatelessWidget {
                                     decoration: BoxDecoration(
                                       color: Colors.black,
                                       borderRadius: BorderRadius.circular(18),
-                                      image: DecorationImage(
-                                        fit: BoxFit.cover,
-                                        image: AssetImage(
-                                            galleryImgList[index]['img']),
-                                      ),
+                                     image: DecorationImage(
+                                       image: AssetImage('assets/image/galleryImages/1.jpeg'),
+                                     )
                                     ),
                                   ),
                                   Container(
